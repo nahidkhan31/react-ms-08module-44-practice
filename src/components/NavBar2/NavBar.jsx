@@ -38,15 +38,20 @@ const NavBar = () => {
   ));
 
   return (
-    <nav className="flex justify-between mx-10">
+    <nav className="flex justify-between mx-10 my-3">
       <span className="flex" onClick={() => setOpen(!open)}>
         {open ? <X></X> : <Menu className="md:hidden"></Menu>}
 
-        <ul className="md:hidden">{links}</ul>
+        <ul
+          className={`md:hidden absolute duration-1000 bg-amber-200 rounded-2xl text-black ${
+            open ? "top-8" : "-top-64"
+          }`}>
+          {links}
+        </ul>
         <h3>My Navbar</h3>
       </span>
       <ul className="md:flex hidden">{links}</ul>
-      <button>Sing In</button>
+      <button className="btn btn-primary">Sing In</button>
     </nav>
   );
 };
