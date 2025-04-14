@@ -17,6 +17,7 @@
     "id": 2,
     "name": "Standard",
     "price": "$49/month",
+    "popular": true,
     "description": "Great for regular gym-goers looking for group classes and more flexibility.",
     "features": [
       "Everything in Basic",
