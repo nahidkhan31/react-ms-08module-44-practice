@@ -1,0 +1,82 @@
+[
+  {
+    "student_id": "S001",
+    "name": "Alice",
+    "math": 85,
+    "physics": 78,
+    "chemistry": 88,
+    "biology": 92
+  },
+  {
+    "student_id": "S002",
+    "name": "Bob",
+    "math": 76,
+    "physics": 69,
+    "chemistry": 72,
+    "biology": 70
+  },
+  {
+    "student_id": "S003",
+    "name": "Charlie",
+    "math": 90,
+    "physics": 85,
+    "chemistry": 89,
+    "biology": 87
+  },
+  {
+    "student_id": "S004",
+    "name": "Diana",
+    "math": 66,
+    "physics": 73,
+    "chemistry": 70,
+    "biology": 75
+  },
+  {
+    "student_id": "S005",
+    "name": "Ethan",
+    "math": 95,
+    "physics": 91,
+    "chemistry": 94,
+    "biology": 90
+  },
+  {
+    "student_id": "S006",
+    "name": "Fiona",
+    "math": 78,
+    "physics": 80,
+    "chemistry": 77,
+    "biology": 85
+  },
+  {
+    "student_id": "S007",
+    "name": "George",
+    "math": 82,
+    "physics": 76,
+    "chemistry": 79,
+    "biology": 81
+  },
+  {
+    "student_id": "S008",
+    "name": "Hannah",
+    "math": 88,
+    "physics": 84,
+    "chemistry": 86,
+    "biology": 89
+  },
+  {
+    "student_id": "S009",
+    "name": "Ian",
+    "math": 70,
+    "physics": 65,
+    "chemistry": 68,
+    "biology": 72
+  },
+  {
+    "student_id": "S010",
+    "name": "Julia",
+    "math": 91,
+    "physics": 89,
+    "chemistry": 93,
+    "biology": 95
+  }
+]

@@ -3,8 +3,10 @@ import "./App.css";
 // import Navbar from "./components/Navbar/Navbar";
 import NavBar from "./components/NavBar2/NavBar";
 import PricingOption from "./components/pricingOption/PricingOption";
+import RechartsIcon from "./components/RechartsIcon/RechartsIcon";
 
 const pricingPromise = fetch("pricingData.json").then((res) => res.json());
+const rechartsPromise = fetch("recharts.json").then((res) => res.json());
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           }>
           <PricingOption pricingPromise={pricingPromise}></PricingOption>
         </Suspense>
+
+        <RechartsIcon rechartsPromise={rechartsPromise}></RechartsIcon>
       </main>
     </>
   );
