@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": "$29/month",
+    "description": "Ideal for beginners or those who just want access to essential gym equipment.",
+    "features": [
+      "Access to gym floor (all machines & weights)",
+      "Locker room access",
+      "Free Wi-Fi",
+      "Open 6am – 10pm",
+      "Towel service",
+      "Access to mobile fitness app"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "price": "$49/month",
+    "description": "Great for regular gym-goers looking for group classes and more flexibility.",
+    "features": [
+      "Everything in Basic",
+      "Unlimited group fitness classes (yoga, HIIT, Zumba)",
+      "1 guest pass per month",
+      "Open 24/7",
+      "Basic nutrition guide",
+      "Smart locker system"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "price": "$79/month",
+    "description": "All-inclusive package with personal training, recovery services, and VIP perks.",
+    "features": [
+      "Everything in Standard",
+      "2 personal training sessions per month",
+      "Sauna and steam room access",
+      "Free sports drinks & protein shakes",
+      "Priority booking for classes",
+      "Monthly fitness assessment",
+      "Massage therapy access",
+      "Dedicated fitness coach",
+      "Invites to exclusive wellness events"
+    ]
+  }
+]
