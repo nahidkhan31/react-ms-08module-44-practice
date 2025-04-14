@@ -4,6 +4,7 @@ import "./App.css";
 import NavBar from "./components/NavBar2/NavBar";
 import PricingOption from "./components/pricingOption/PricingOption";
 import RechartsIcon from "./components/RechartsIcon/RechartsIcon";
+import Footer from "./components/Footer/Footer";
 
 const pricingPromise = fetch("pricingData.json").then((res) => res.json());
 const rechartsPromise = fetch("recharts.json").then((res) => res.json());
@@ -26,6 +27,10 @@ function App() {
 
         <RechartsIcon rechartsPromise={rechartsPromise}></RechartsIcon>
       </main>
+
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 }
