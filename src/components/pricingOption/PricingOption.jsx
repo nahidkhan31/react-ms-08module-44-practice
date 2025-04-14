@@ -5,7 +5,7 @@ const PricingOption = ({ pricingPromise }) => {
   //   console.log(pricingData);
 
   return (
-    <div>
+    <div className="p-4">
       <h2 className="text-5xl">Get Our Membership</h2>
       <div className="grid md:grid-cols-3 gap-8">
         {pricingData.map((pricing) => (
